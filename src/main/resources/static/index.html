@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Usuario</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<form id="form">
+    <input type="text" name="nombre" placeholder="Nombre" required />
+    <input type="number" name="peso" placeholder="Peso (kg)" required />
+    <select name="sexo">
+        <option value="hombre">Hombre</option>
+        <option value="mujer">Mujer</option>
+    </select>
+    <select name="actividad">
+        <option value="sedentario">Sedentario</option>
+        <option value="ligero">Ligero</option>
+        <option value="moderado">Moderado</option>
+        <option value="intenso">Intenso</option>
+    </select>
+    <button type="submit">Enviar</button>
+</form>
+
+<div id="listaUsuarios" style="margin:50px; border:1px solid #ccc; padding:50px; max-width:400px;">
+
+</div>
+
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
