@@ -47,7 +47,7 @@ document.getElementById('form').addEventListener('submit', async function (e) {
     });
 
     const result = await res.json();
-    alert(`Usuario guardado: ${result.nombre}, Calorías: ${result.calorias}`);
+    //alert(`Usuario guardado: ${result.nombre}, Calorías: ${result.calorias}`);
 
 
     agregarUsuario(result.nombre, result.calorias);
